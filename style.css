@@ -38,33 +38,37 @@ h1.header {
 
 
 div.head {
-	overflow: hidden;
+	width: 100%;
+}
+#navigation {
+	display: flex;
+	flex-wrap: wrap;
 	background-color: darkblue;
-}
-#navigation li {
-	display: inline;
-	margin-right: 1px;
-	color: black;
-	background: white;
-}
-#navigation li {
-	margin: 0;
+	list-style-type: none;
 	padding: 0;
-	list-style: none;
-	text-align: center;
+	margin: auto;
 }
-#navigation li a {
+#navigation li {
+	color: white;
+	margin: 5px;
+	text-align: center;
 	padding: 4px 20px;
 	background: black;
-	color: white;
 	border: 1px solid grey;
+}
+#navigation li a {
+	
+	color: white;
 	font: 1em "Playwrite HU", cursive;
 	line-height: 1em;
 	text-align: center;
 	text-decoration: none;
 }
-#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+#navigation li:hover {
   background: darkblue ;
+  text-decoration: underline ;
+}
+#navigation li a:focus, #navigation li a:active {
   text-decoration: underline ;
 }
 }
