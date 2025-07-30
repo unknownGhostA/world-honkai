@@ -1,0 +1,98 @@
+body {background-color: black;
+	background-repeat: repeat-x;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.bulle {
+    position: absolute;
+    animation: flottement 4s infinite ease-in;
+  background-color: rgba(255, 255, 255, .05);
+  border-radius: 50%;
+}
+
+@keyframes flottement {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-1000px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+h1.header {
+	padding: 100px;
+	background-image: url("https://i.pinimg.com/736x/1f/b1/bd/1fb1bdcbb488b0353b50c7f283d40cb8.jpg");
+	background-position: center;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	text-align: center;
+	font-family: "Tmes New Roman", Helvetica, serif;
+}
+
+
+div.head {
+	overflow: hidden;
+	background-color: darkblue;
+}
+#navigation li {
+	display: inline;
+	margin-right: 1px;
+	color: black;
+	background: white;
+}
+#navigation li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+#navigation li a {
+	padding: 4px 20px;
+	background: black;
+	color: white;
+	border: 1px solid grey;
+	font: 1em "Playwrite HU", cursive;
+	line-height: 1em;
+	text-align: center;
+	text-decoration: none;
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: darkblue ;
+  text-decoration: underline ;
+}
+}
+h2 {color: whitesmoke;
+	text-align: center;
+	font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p{
+	color: whitesmoke;
+}
+
+p.penacony{
+	background-color: black;
+	color: whitesmoke;
+}
+
+h3 {
+	text-align: center;
+}
+
+summary {color: whitesmoke;
+}
+.center {text-align: center;
+}
+
+details {color: whitesmoke;
+}
