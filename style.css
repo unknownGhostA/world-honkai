@@ -72,7 +72,8 @@ div.head {
   text-decoration: underline ;
 }
 }
-h2 {color: whitesmoke;
+h2 {
+	color: whitesmoke;
 	text-align: center;
 	font-family: "Playwrite HU", cursive;
   font-optical-sizing: auto;
@@ -100,3 +101,4 @@ summary {color: whitesmoke;
 
 details {color: whitesmoke;
 }
+
